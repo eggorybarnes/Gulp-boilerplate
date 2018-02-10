@@ -23,7 +23,7 @@ git clone https://github.com/eggorybarnes/Gulp-boilerplate.git
 Next you need to remove the remotes
 
 ```
-git remote rm <remote>
+git remote rm origin
 ```
 
 Now create your own repository on GitHub or your git service and add that repository as your origin. 
