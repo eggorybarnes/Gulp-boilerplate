@@ -55,6 +55,8 @@ This boilerplate uses SCSS as a pre-processor for CSS, this provides a ton of ad
 
 To get you started this boilerplate uses Sierra, 'The smallest and lightest SCSS library' to learn more read through their docs and poke around at their samples [HERE](http://sierra-library.github.io/)
 
+To template your pages use EJS which you can find resources for [HERE](https://scotch.io/tutorials/use-ejs-to-template-your-node-application). This allows you to seperate your files into multiple parts and reuse them across your site. 
+
 And finally to compile everything down into a friendly package that you can deploy we use Gulp. [HERE](https://gulpjs.com/) is their official website and [HERE](https://www.youtube.com/watch?v=1rw9MfIleEg) is a video tutorial to get you started. 
 
 ### File Structure
@@ -63,11 +65,11 @@ And finally to compile everything down into a friendly package that you can depl
 |── app
 |	|── fonts # upload fonts here, fontawesome already included
 |	|── js # root folder for all your JS, the page already grabs main.js
-|	└─ pages # all your pages in EJS format, we recommend seperating your pages and including them through the templating engine
-|	└─ scss # your styling goes here, check out the Sierra docs for the structure in this folder
+|	└── pages # all your pages in EJS format, we recommend seperating your pages and including them through the templating engine
+|	└── scss # your styling goes here, check out the Sierra docs for the structure in this folder
 |── dist # all your work will be compiled into this folder
 |── gulpfile.js # default gulp file
-└─ package.json # all the boilerplates dependancies, this is used by npm
+└── package.json # all the boilerplates dependancies, this is used by npm
 
 
 
